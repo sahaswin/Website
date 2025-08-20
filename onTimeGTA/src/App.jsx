@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Home, Building2, Users, Phone, Mail, MapPin, CheckCircle, Hammer, Wrench, Truck, Shield, Clock, Award } from 'lucide-react';
+import './App.css'; // Add this import
 
 const ConstructionWebsite = () => {
   const [activePage, setActivePage] = useState('home');
@@ -343,7 +344,7 @@ const ConstructionWebsite = () => {
                   <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center">
                     <MapPin className="h-8 w-8 text-orange-500" />
                   </div>
-                  <h3 className="font-semibold text-slate-900">Visit Us</h3>
+                  <h3 className="font-semibent text-slate-900">Visit Us</h3>
                   <p className="text-gray-600">123 Construction Ave<br />Toronto, ON M5V 3A8</p>
                 </div>
               </div>
